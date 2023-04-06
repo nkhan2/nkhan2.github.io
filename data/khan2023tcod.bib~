@@ -1,0 +1,6 @@
+@inproceedings{khan2021bidirectional,
+ title={Edge-aware Bidirectional Diffusion for Dense Depth Estimation from Light Fields},
+ author={Numair Khan and Min H. Kim and James Tompkin},
+ booktitle={British Machine Vision Conference (BMVC)},
+ year={2021},
+}
