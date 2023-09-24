@@ -1,0 +1,6 @@
+@inproceedings{khan2023tcod,
+ title={Temporally Consistent Online Depth Estimation Using Point-Based Fusion},
+ author={Numair Khan, Eric Penner, Douglas Lanman and Lei Xiao}, 
+ booktitle={Computer Vision and Pattern Recognition (CVPR)},
+ year={2023},
+}
