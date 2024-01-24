@@ -45,7 +45,98 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 				
 
+<tr onmouseout="gauffre_stop()" onmouseover="gauffre_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='gauffre_image'><video  width=100% height=100% muted autoplay loop>
+      <source src="img/gauffre.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video></div>
+      <img src='img/thumb-gauffre.gif' width="160">
+    </div>
+    <script type="text/javascript">
+      function gauffre_start() {
+        document.getElementById('gauffre_image').style.opacity = "1";
+      }
+
+      function gauffre_stop() {
+        document.getElementById('gauffre_image').style.opacity = "0";
+      }
+      gauffre_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <papertitle>GauFRe: Gaussian Deformation Fields for Real-time Dynamic Novel View Synthesis</papertitle>
+    <br>
+    <a href="https://lynl7130.github.io/">Yiqing Liang</a>,
+    <strong>Numair Khan</strong>,
+    <a href="">Zhenqin Li</a>,
+    <a href="https://www.monkeyoverflow.com/about">Thu Nguyen-Phuoc</a>,
+    Douglas Lanman,    
+    <a href="https://jamestompkin.com/">James Tompkin</a>,
+    <a href="https://leixiao-ubc.github.io/">Lei Xiao</a>,
+    <br>
+    <em>ArXiv</em>, 2024 &nbsp 
+    <br>
+    <a href="https://arxiv.org/abs/2312.11458">arXiv</a> /
+    <a href="https://lynl7130.github.io/gaufre/index.html">project page</a> /
+    <a href="./data/liang2024gauffre.bib">bibtex</a>
+    <p></p>
+    <p>
+      We propose a method for dynamic scene reconstruction based on a deformable set of 3D Gaussians residing in a canonical space, and a time-dependent deformation field defined by a multi-layer perceptron (MLP)
+    </p>
+  </td>
+</tr>
 	    
+
+<tr onmouseout="texturedreamer_stop()" onmouseover="texturedreamer_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='texturedreamer_image'><video  width=100% height=100% muted autoplay loop>
+      <source src="img/texture-dreamer.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video></div>
+      <img src='img/thumb-texture-dreamer.gif' width="160">
+    </div>
+    <script type="text/javascript">
+      function texturedreamer_start() {
+        document.getElementById('texturedreamer_image').style.opacity = "1";
+      }
+
+      function texturedreamer_stop() {
+        document.getElementById('texturedreamer_image').style.opacity = "0";
+      }
+      texturedreamer_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <papertitle>TextureDreamer: Image-guided Texture Synthesis through Geometry-aware Diffusion</papertitle>
+    <br>
+    <a href="https://yuyingyeh.github.io/">Yu-Ying Yeh</a>,
+    <a href="https://jbhuang0604.github.io/">Jia-Bin Huang</a>,
+    <a href="https://changilkim.com/">Changil Kim</a>,
+    <a href="https://leixiao-ubc.github.io/">Lei Xiao</a>,
+    <a href="https://www.monkeyoverflow.com/about">Thu Nguyen-Phuoc</a>,
+    <strong>Numair Khan</strong>,
+    <a href="https://holmes969.github.io/">Cheng Zhang</a>,
+    <a href="https://cseweb.ucsd.edu/~mkchandraker/">Manmohan Chandrakar</a>,
+    <a href="">Carl Marshall</a>,
+    <a href="http://flycooler.com/">Zhao Dong</a>,
+    <a href="">Zhenqin Li</a>,
+    <br>
+    <em>ArXiv</em>, 2024 &nbsp 
+    <br>
+    <a href="https://arxiv.org/abs/2401.09416">arXiv</a> /
+    <a href="https://texturedreamer.github.io/">project page</a> /
+    <a href="./data/yeh2024texturedreamer.bib">bibtex</a>
+    <p></p>
+    <p>
+      We present a novel image-guided texture synthesis method to transfer relightable textures from a small number of input images to target 3D shapes across arbitrary categories.
+    </p>
+  </td>
+</tr>
+
+
 <tr onmouseout="tmpi_stop()" onmouseover="tmpi_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
