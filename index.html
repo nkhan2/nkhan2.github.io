@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr style="padding:0px">
       <td style="padding:0px">
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -44,6 +44,52 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 				
 
+<tr onmouseout="replaceanything_stop()" onmouseover="replaceanything_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='replaceanything_image'><video  width=100% height=100% muted autoplay loop>
+      <source src="img/replaceanything.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video></div>
+      <img src='img/thumb-replaceanything.png' width="160">
+    </div>
+    <script type="text/javascript">
+      function replaceanything_start() {
+        document.getElementById('replaceanything_image').style.opacity = "1";
+      }
+
+      function replaceanything_stop() {
+        document.getElementById('replaceanything_image').style.opacity = "0";
+      }
+      replaceanything_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <papertitle>ReplaceAnything3D: Text-Guided 3D Scene Editing with Compositional Neural Radiance Fields</papertitle>
+    <br>
+    <a href="https://github.com/ebartrum">Edward Bartrum</a>,
+    <a href="https://www.monkeyoverflow.com/about">Thu Nguyen-Phuoc</a>,
+    <a href="https://chrisdxie.github.io/">Chris Xie</a>,
+    <a href="https://scholar.google.com/citations?hl=zh-CN&user=Nxc2RbQAAAAJ&view_op=list_works&sortby=pubdate">Zhenqin Li</a>,    
+    <strong>Numair Khan</strong>,
+    Armen Avetisyan,
+    <br>
+    Douglas Lanman,    
+    <a href="https://leixiao-ubc.github.io/">Lei Xiao</a>
+    <br>
+    <em>NeurIPS</em>, 2024 &nbsp 
+    <br>
+    <a href="https://arxiv.org/abs/2401.17895">arXiv</a> /
+    <a href="https://replaceanything3d.github.io/">project page</a> /
+    <a href="./data/bartrum2024replaceanything.bib">bibtex</a>
+    <p></p>
+    <p>
+      We introduce a novel text-guided 3D scene editing method that enables the replacement of specific objects within a scene.
+    </p>
+  </td>
+</tr>
+
+
 <tr onmouseout="gauffre_stop()" onmouseover="gauffre_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
@@ -73,7 +119,7 @@
     <a href="https://www.monkeyoverflow.com/about">Thu Nguyen-Phuoc</a>,
     Douglas Lanman,    
     <a href="https://jamestompkin.com/">James Tompkin</a>,
-    <a href="https://leixiao-ubc.github.io/">Lei Xiao</a>,
+    <a href="https://leixiao-ubc.github.io/">Lei Xiao</a>
     <br>
     <em>WACV</em>, 2025 &nbsp 
     <br>
@@ -121,7 +167,7 @@
     <a href="https://cseweb.ucsd.edu/~mkchandraker/">Manmohan Chandrakar</a>,
     <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=xWD7ZRkAAAAJ&sortby=pubdate">Carl Marshall</a>,
     <a href="http://flycooler.com/">Zhao Dong</a>,
-    <a href="https://scholar.google.com/citations?hl=zh-CN&user=Nxc2RbQAAAAJ&view_op=list_works&sortby=pubdate">Zhenqin Li</a>,
+    <a href="https://scholar.google.com/citations?hl=zh-CN&user=Nxc2RbQAAAAJ&view_op=list_works&sortby=pubdate">Zhenqin Li</a>
     <br>
     <em>CVPR</em>, 2024 &nbsp 
     <br>
@@ -161,7 +207,7 @@
     <br>
     <strong>Numair Khan</strong>,
     Douglas Lanman,
-    <a href="https://leixiao-ubc.github.io">Lei Xiao</a>,
+    <a href="https://leixiao-ubc.github.io">Lei Xiao</a>
     <br>
     <em>ICCV</em>, 2023 &nbsp 
     <br>
@@ -203,7 +249,7 @@
     </a>
     <br>
     <strong>Numair Khan</strong>, Eric Penner, Douglas Lanman,
-    <a href="https://leixiao-ubc.github.io">Lei Xiao</a>,
+    <a href="https://leixiao-ubc.github.io">Lei Xiao</a>
     <br>
     <em>CVPR</em>, 2023 &nbsp 
     <br>
@@ -249,9 +295,9 @@
     <a href="http://orlitany.github.io/">Or Litany</a>, 
     <a href="https://player-eric.com/about/">Shiqin Yan</a>, 
     <strong>Numair Khan</strong>,
-    <a href="https://federicotombari.github.io">Federico Tombari</a>
-    <a href="https://jamestompkin.com">James Tompkin</a>
-    <a href="https://vincentsitzmann.com">Vincent Sitzmann</a>
+    <a href="https://federicotombari.github.io">Federico Tombari</a>,
+    <a href="https://jamestompkin.com">James Tompkin</a>,
+    <a href="https://vincentsitzmann.com">Vincent Sitzmann</a>,
     <a href="https://cs.brown.edu/people/ssrinath">Srinath Sridhar</a>
     <br>
     <em>Eurographics State-of-the-Art Report</em>, 2022
@@ -291,7 +337,7 @@
       <papertitle>Differentiable Diffusion for Dense Depth Estimation from Multi-View Images</papertitle>
     </a>
     <br>
-    <strong>Numair Khan</strong>
+    <strong>Numair Khan</strong>,
     <a href="https://vclab.kaist.ac.kr/minhkim/">Min H. Kim</a>, 
     <a href="https://jamestompkin.com">James Tompkin</a>
     <br>
