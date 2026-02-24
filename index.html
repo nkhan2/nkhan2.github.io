@@ -44,6 +44,55 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 				
 
+
+<tr onmouseout="lavr_stop()" onmouseover="lavr_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='lavr_image'><video  width="160" height="160" muted autoplay loop>
+      <source src="img/lavr.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video></div>
+      <img src='img/thumb-lavr.png' width="160" height="160">
+    </div>
+    <script type="text/javascript">
+      function lavr_start() {
+        document.getElementById('lavr_image').style.opacity = "1";
+      }
+
+      function lavr_stop() {
+        document.getElementById('lavr_image').style.opacity = "0";
+      }
+      lavr_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <papertitle>LaVR: Latent Space Conditioned Video Re-rendering using Large 4D Reconstruction Models</papertitle>
+    <br>
+    <a href="https://mingyangx.github.io/">Mingyang Xie</a>,
+    <strong>Numair Khan</strong>,
+    <a href="https://tianfwang.github.io">Tianfu Wang</a>,
+    <a href="https://scholar.google.com/citations?user=QNwhaR8AAAAJ&hl=en">Naina Dhingra</a>,
+    <a href="https://shnnam.github.io/">Seonghyeon Nam</a>,
+    <a href="https://www.linkedin.com/in/haitao-yang-28582324">Haitao Yang</a>,
+    <a href="https://huizhuo1987.github.io">Zhuo Hui</a>,
+    <a href="https://www.cs.umd.edu/~metzler/">Christopher Metzler</a>,
+    <a href="https://www.robots.ox.ac.uk/~vedaldi/">Andrea Vedaldi</a>,
+    <a href="https://web.cs.ucdavis.edu/~hpirsiav/">Hamed Pirsiavash</a>
+    <a href="https://scholar.google.com/citations?user=CKCjNG4AAAAJ&hl=en">Lei Luo</a>
+    <br>
+    <em>CVPR</em>, 2026 &nbsp 
+    <br>
+    <a href="https://arxiv.org/abs/2601.14674">arXiv</a> /
+    <a href="https://lavr-4d-scene-rerender.github.io/">project page</a> /
+    <a href="./data/xie2026lavr.bib">bibtex</a>
+    <p></p>
+    <p>
+      We use the latent space of a large 4D reconstruction model to condition a video model for geometrically accurate generation.
+    </p>
+  </td>
+</tr>
+
+
 <tr onmouseout="dgslrm_stop()" onmouseover="dgslrm_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
     <div class="one">
