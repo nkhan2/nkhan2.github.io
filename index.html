@@ -43,7 +43,54 @@
         </tbody></table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 				
+<tr onmouseout="freerange_stop()" onmouseover="freerange_start()">
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <div class="two" id='freerange_image'><video  width="160" height="160" muted autoplay loop>
+      <source src="img/free-range.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+      </video></div>
+      <img src='img/thumb-free-range.gif' width="160" height="160">
+    </div>
+    <script type="text/javascript">
+      function freerange_start() {
+        document.getElementById('freerange_image').style.opacity = "1";
+      }
 
+      function freerange_stop() {
+        document.getElementById('freerange_image').style.opacity = "0";
+      }
+      freerange_stop()
+    </script>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <papertitle>Free-Range Gaussians: Non-Grid-Aligned Generative 3D Gaussian Reconstruction</papertitle>
+    <br>
+    <a href="">Ahan Shabanov</a>,
+    <a href="">Peter Hedman</a>,
+    <a href="">Ethan Weber</a>,
+    <a href="">Zhengqin Li</a>,
+    <a href="">Denis Rozumny</a>,
+    <a href="">Gael Le Lan</a>,
+    <a href="">Naina Dhingra</a>,
+    <a href="">Lei Luo</a>,
+    <a href="">Andrea Vedaldi</a>,
+    <a href="">Christian Richardt</a>,
+    <a href="">Andrea Tagliasacchi</a>,
+    <a href="">Bo Zhu</a>,
+    <strong>Numair Khan</strong>,
+    <br>
+    <em>ArXiv</em>, 2026 &nbsp 
+    <br>
+    <a href="https://arxiv.org/abs/2604.04874">arXiv</a> /
+    <a href="https://free-range-gaussians.github.io/">project page</a> /
+    <a href="./data/freerange2026.bib">bibtex</a>
+    <p></p>
+    <p>
+      We presenta multi-view reconstruction method that predicts non-pixel, non-voxel-aligned 3D Gaussians from as few as four images using flow matching over Gaussian parameters, enabling plausible completions in unobserved regions while avoiding the redundancy of grid-aligned output.
+    </p>
+  </td>
+</tr>
 
 <tr onmouseout="lavr_stop()" onmouseover="lavr_start()">
   <td style="padding:20px;width:25%;vertical-align:middle">
@@ -88,6 +135,32 @@
     <p></p>
     <p>
       We use the latent space of a large 4D reconstruction model to condition a video model for geometrically accurate generation.
+    </p>
+  </td>
+</tr>
+
+<tr>
+  <td style="padding:20px;width:25%;vertical-align:middle">
+    <div class="one">
+      <img src='img/thumb-bulletgen.gif' width="160" height="140">
+    </div>
+  </td>
+  <td style="padding:20px;width:75%;vertical-align:middle">
+    <papertitle>BulletGen: Improving 4D Reconstruction with Bullet-Time Generation</papertitle>
+    <br>
+    <a href="https://rozumden.github.io/">Denis Rozumny</a>,
+    <a href="https://scholar.google.com/citations?user=XpOqG0cAAAAJ&hl=en">Jonathon Luiten</a>,
+    <strong>Numair Khan</strong>,
+    <a href="https://demuc.de/">Johannes Schönberger</a>,
+    <a href="https://scholar.google.com/citations?user=CxbDDRMAAAAJ&hl=en">Peter Kontschieder</a>
+    <br>
+    <em>CVPRW</em>, 2026 &nbsp 
+    <br>
+    <a href="https://arxiv.org/abs/2506.18601">arXiv</a> /
+    <a href="./data/bulletgen2026.bib">bibtex</a>
+    <p></p>
+    <p>
+      We introduce an approach that takes advantage of generative models to correct errors and complete missing information in a Gaussian-based dynamic scene representation.
     </p>
   </td>
 </tr>
